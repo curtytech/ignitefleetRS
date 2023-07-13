@@ -1,0 +1,59 @@
+//install styled componets
+npm i styled-components
+
+// types styled components
+npm i --save-dev @types/styled-components @types/styled-components-react-native  
+
+
+// i font roboto
+npx expo install expo-font @expo-google-fonts/roboto
+
+
+// i dotenv
+npm i -D react-native-dotenv
+
+// run andoid
+npx expo run:android
+
+// entrar na pasta android
+cd android 
+
+// gerar chaves
+gradlew signingReport 
+
+
+npx expo install expo-web-browser
+
+npx expo install expo-auth-session expo-crypto
+
+add linhha no app.json
+    "scheme": "ignitefleet",
+
+chave do que gerei do app
+5E:8F:16:06:2E:A3:CD:2C:4A:0D:54:78:76:BA:A6:F3:8C:AB:F6:25
+
+
+instalar realm db
+npm i realm
+
+npm i @realm/react
+
+
+// react n svg
+npx expo install react-native-svg
+
+// i phosphor icons
+npm i --save phosphor-react-native
+
+// i expo-image
+npx expo install expo-image
+
+react navigation
+npm i @react-navigation/native
+
+npx expo install react-native-screens react-native-safe-area-context
+
+npm i @react-navigation/native-stack
+
+// criar ids aleatorios
+npm i react-native-get-random-values
